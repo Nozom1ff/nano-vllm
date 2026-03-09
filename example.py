@@ -12,6 +12,7 @@ def main():
     prompts = [
         "introduce yourself",
         "list all prime numbers within 100",
+        "如果心情不好建议我做什么？",
     ]
     prompts = [
         tokenizer.apply_chat_template(
